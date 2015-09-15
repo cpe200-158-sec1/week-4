@@ -26,7 +26,7 @@
 ## Methods:
 - setCircle(double,double,double): take x,y,radius as parameters
 - getArea(): virtual, get area of a cicle
-- override ToString() method
+- override ToString() method 
 
 # 3. Cylinder Class:
 Inherit from the Circle class. Use a circle as a base of cylinder
