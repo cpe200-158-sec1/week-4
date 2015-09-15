@@ -46,8 +46,10 @@ Abstract class
 ## Questions:
 
 1. Are there still any redundant lines of code in your project? where?
+	Answer : No.
 2. Modify the project so that you can minimize or solve those redundancy.
 3. What happen if you uncomment line #27-28 in the Program.cs file? Why?
+	Answer : Program can not run because abstract class can not have a constructor.
 4. If you uncomment line #30-24 in the Program.cs file, you will get some compile errors.
    Modify the classes and/or the program.cs without touching the "Main" method so that 
    the program will display the result as shown below:
@@ -58,6 +60,8 @@ Abstract class
 [Triangle: base=4, height=5, area=10, color="blue"]
 [Rectangle: width=1, height=1, area=1, color="gold"]
 [Rectangle: width=4, height=5, area=20, color="red"]
+[Rectangle: width=1, height=15, area=15, color="red"]
+[Triangle: width=3, height=4, area=6, color="gold"]
 Perimeter s1: 18
 Perimeter s1: 15.4031242374328
 Perimeter s1: 4

@@ -6,7 +6,6 @@ namespace Lab4
 	{
         private double height;
         private double width;
-        private string color;
         public double Height
         {
             get { return height; }
