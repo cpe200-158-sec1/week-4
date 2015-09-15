@@ -51,11 +51,11 @@ namespace Lab4
         }
         public  virtual double getArea()
         {
-            return 3.14159265358979 * Radius * Radius;
+            return Math.PI * Radius * Radius;
         }
         public override string ToString()
         {
-            return string.Format("[Circle: center({0},{1}), radius={2}, area={3}]",_center.X, _center.Y, _radius, getArea());
+            return string.Format("[Circle: center{0}, radius={1}, area={2}]",_center, _radius, getArea());
         }
     }
 }

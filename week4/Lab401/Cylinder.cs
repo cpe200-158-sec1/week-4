@@ -11,7 +11,7 @@ namespace Lab4
             get { return _height; }
             set
             {
-                if (value == 0)
+                if (value < 0)
                     _height = 1.0;
                 else
                     _height = value;
@@ -46,7 +46,7 @@ namespace Lab4
 
         public override double getArea()
         {
-           return (2 * 3.14159265358979 * _circle.Radius * Height) +( 2 * _circle.getArea());
+           return (2 * Math.PI * _circle.Radius * Height) +( 2 * _circle.getArea());
         }
         public double getVolume()
         {
