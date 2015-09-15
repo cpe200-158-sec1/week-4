@@ -45,7 +45,7 @@ namespace Lab4
             x = a.x;
             y = a.y;
         }
-        public double getSurface()
+        public override double getArea()
         {
             return 2.0*(22.0/7.0)*Radius + (Height * Radius * 2.0 * (double)(22.0 / 7.0));
         }
@@ -55,7 +55,7 @@ namespace Lab4
         }
         public override string ToString()
         {
-            return string.Format("[Cylinder: center({0},{1}), radius={2}, height={3}, surface={4}, volume={5}]", this.x, this.y,this.Radius,this.Height,getSurface(),getVolume());
+            return string.Format("[Cylinder: center({0},{1}), radius={2}, height={3}, surface={4}, volume={5}]", this.x, this.y,this.Radius,this.Height,getArea(),getVolume());
         }
     }
 }

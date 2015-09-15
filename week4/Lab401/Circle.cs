@@ -40,7 +40,7 @@ namespace Lab4
             this.x = a;
             this.y = b;
         }
-        public double getArea()
+        public virtual double getArea()
         {
             return  ((22.0 / 7.0) * this.Radius * this.Radius);
         }
