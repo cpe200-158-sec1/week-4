@@ -1,5 +1,6 @@
 ﻿using System;
 
+using Lab4;
 namespace Lab4
 {
 	class MainClass
@@ -12,7 +13,9 @@ namespace Lab4
 
 			Cylinder cl1 = new Cylinder (), cl2 = new Cylinder (c3), cl3 = new Cylinder (1, 1, 3, 4);
 			Cylinder cl4 = new Cylinder (cl3);
+
 			Console.WriteLine(cl1+"\n"+cl2+"\n"+cl3+"\n"+cl4);
-		}
+            Console.ReadKey();
+        }
 	}
 }
