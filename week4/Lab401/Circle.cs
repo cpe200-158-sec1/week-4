@@ -34,12 +34,12 @@ namespace Lab4
             _center = new Point();
             _radius = radius;
         } 
-        public Circle(double x ,double y, double radius)
+        public Circle(double x ,double y, double radius) : base(x,y)
         {
             _center = new Point(x, y);
             _radius = radius;
         }
-        public Circle(Circle obj)
+        public Circle(Circle obj) : base(obj.X,obj.Y)
         {
             _center = new Point(obj.Center);
             _radius = obj.Radius;
