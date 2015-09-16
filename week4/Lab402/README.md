@@ -45,12 +45,9 @@ Abstract class
 ## Questions:
 
 1. Are there still any redundant lines of code in your project? where?
-	:ยังมีโค๊ดซ้ำซ้อน เช่น ตัวแปรของTriangleและRectangleที่เหมือนกัน คือ height,width และการใช้ abstract (Color)member ใน subclassก็ต้องเขียน Method ทุกครั้ง
-	:such as properties of Trangle and Rectangle(height,width),declare abstracted (Color)member in subclass.
+	:No.
 
 2. Modify the project so that you can minimize or solve those redundancy.
-	:
-	:
 
 3. What happen if you uncomment line #27-28 in the Program.cs file? Why?
 	:Error,because cannot create an instance of an abstract class.

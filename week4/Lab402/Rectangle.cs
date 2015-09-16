@@ -46,7 +46,7 @@ namespace Lab402
             Height = h;
         }
         //- Rectangle(Rectangle) : copy constructor
-        public Rectangle(Rectangle r)
+        public Rectangle(Rectangle r) 
         {
             _color = r._color;
             Width = r.Width;
@@ -61,7 +61,7 @@ namespace Lab402
         }
         public override double getPerimeter()
         {
-            return 2 * (Height + Width);
+            return 2.0 * (Height + Width);
         }
         public override string ToString()
         {
