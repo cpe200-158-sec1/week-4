@@ -21,7 +21,7 @@ namespace Lab4
             {
                 if (value >= 1)
                     _Radius = value;
-                else _Radius = 1.0;
+                else _Radius = 1.0; 
             }
         }
 

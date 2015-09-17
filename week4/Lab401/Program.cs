@@ -15,6 +15,6 @@ namespace Lab4
 			Console.WriteLine(cl1+"\n"+cl2+"\n"+cl3+"\n"+cl4);
 
             Console.ReadKey();
-		}
+		} 
 	}
 }

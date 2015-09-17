@@ -64,7 +64,7 @@ namespace Lab4
         {
             return string.Format("[Cylinder: center{0}, radius={1}, height={2}, surface={3}, volume={4}]", Surface.Center, Surface.Radius, Height, getAreaCylinder(), getVolume());
         }
-        ///////////////////////
+        /////////////////////// 
     }
 }
 

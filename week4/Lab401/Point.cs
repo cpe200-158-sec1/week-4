@@ -23,7 +23,7 @@ namespace Lab4
             Y = 0;
         }
         public Point(Point p)
-        {
+        { 
             X = p.X;
             Y = p.Y;
         }
