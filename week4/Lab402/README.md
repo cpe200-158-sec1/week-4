@@ -46,14 +46,19 @@ Abstract class
 ## Questions:
 
 1. Are there still any redundant lines of code in your project? where?
+: Yes.there are,There are at Shape.cs line 21-24 constructor Shape(string c)
+
 2. Modify the project so that you can minimize or solve those redundancy.
+: if delete constructor Shape(string c) it can run too.
+
 3. What happen if you uncomment line #27-28 in the Program.cs file? Why?
   : It error "Cannot creat an instance if the abstract class" ,Because Class Shape is abstract class
-    that can not creat instance and abstract class is not completely class.
+    that can not creat instance and abstract class is not completely class it can not make constructor.
 
 4. If you uncomment line #30-24 in the Program.cs file, you will get some compile errors.
    Modify the classes and/or the program.cs without touching the "Main" method so that 
    the program will display the result as shown below:
+
 
 ## Expected Output:
 

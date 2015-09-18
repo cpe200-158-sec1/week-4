@@ -4,6 +4,11 @@ namespace Lab4
 {
 	class MainClass
 	{
+        public static double printPerimeter(Shape s)
+        {
+            return s.getPerimeter();
+        } 
+
 		public static void Main (string[] args)
 		{
 			Shape s1 = new Rectangle("red", 4, 5);
@@ -23,16 +28,17 @@ namespace Lab4
 			Triangle t1 = new Triangle();
 			t1.Width=3; t1.Height=4;
 			Console.WriteLine (t1);
+ 
+	//		Shape s4 = new Shape("green"); 
+		//	Console.WriteLine (s4);
+
+			Console.WriteLine ("Perimeter of s1: {0}",printPerimeter (s1));
+			Console.WriteLine ("Perimeter of s2: {0}",printPerimeter (s2));
+            Console.WriteLine ("Perimeter of s3: {0}",printPerimeter (s3));
+			Console.WriteLine ("Perimeter of r1: {0}",printPerimeter (r1));
+			Console.WriteLine ("Perimeter of t1: {0}",printPerimeter (t1));
             Console.ReadKey();
-//			Shape s4 = new Shape("green"); 
-//			Console.WriteLine (s4);
-
-//			Console.WriteLine ("Perimeter of s1: { 0}",printPerimeter (s1));
-//			Console.WriteLine ("Perimeter of s2: { 0}",printPerimeter (s2));
-//			Console.WriteLine ("Perimeter of s3: { 0}",printPerimeter (s3));
-//			Console.WriteLine ("Perimeter of r1: { 0}",printPerimeter (r1));
-//			Console.WriteLine ("Perimeter of t1: { 0}",printPerimeter (t1));
-
 		}
+            
 	}
 }

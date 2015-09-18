@@ -53,7 +53,9 @@ namespace Lab4
         }
         public override double getPerimeter()
         {
-            return Width + 2 * (Math.Sqrt(Math.Pow(Width, 2) + Math.Pow(Height, 2)));
+
+            return ((Math.Sqrt(((Width/2)*(Width/2))+(Height*Height)))*2)+Width  ;
+            
         }
         public override string ToString()
         {
