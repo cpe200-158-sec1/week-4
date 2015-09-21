@@ -46,12 +46,15 @@ Abstract class
 ## Questions:
 
 1. Are there still any redundant lines of code in your project? where?
+    // i think it don't have  redundant lines 
 2. Modify the project so that you can minimize or solve those redundancy.
+         // i think it don't have  redundant lines 
 3. What happen if you uncomment line #27-28 in the Program.cs file? Why?
+   // it will error because you can not declare Abstract obj;
 4. If you uncomment line #30-24 in the Program.cs file, you will get some compile errors.
    Modify the classes and/or the program.cs without touching the "Main" method so that 
    the program will display the result as shown below:
-
+   // i will make method "printPerimeter"
 ## Expected Output:
 
 [Rectangle: width=4, height=5, area=20, color="red"]
