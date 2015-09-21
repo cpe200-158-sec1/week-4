@@ -46,13 +46,16 @@ Abstract class
 ## Questions:
 
 1. Are there still any redundant lines of code in your project? where?
+answer : No
 2. Modify the project so that you can minimize or solve those redundancy.
 3. What happen if you uncomment line #27-28 in the Program.cs file? Why?
+answer : can not build ,because Shape is a abstract class.
 4. If you uncomment line #30-24 in the Program.cs file, you will get some compile errors.
    Modify the classes and/or the program.cs without touching the "Main" method so that 
    the program will display the result as shown below:
 
 ## Expected Output:
+
 
 [Rectangle: width=4, height=5, area=20, color="red"]
 [Triangle: base=4, height=5, area=10, color="blue"]
