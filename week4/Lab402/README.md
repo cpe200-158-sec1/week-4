@@ -1,7 +1,7 @@
 ﻿# Lab402: Shape abstract class, Retangle and Triangle classes
 
 # 1. Shape Class:
-Abstract class
+Abstract class 
 
 ## Propeties:
 - string Color: read-only, color of the shape, default="gold"
@@ -46,8 +46,14 @@ Abstract class
 ## Questions:
 
 1. Are there still any redundant lines of code in your project? where?
+-  Yes,there are in constructors.
+
 2. Modify the project so that you can minimize or solve those redundancy.
+-  Use base keyword and followed by parameter list after declare a constructor in subclass as usual.
+  
 3. What happen if you uncomment line #27-28 in the Program.cs file? Why?
+-  It's error. Because 'Shape' is abstract class. This Class can't be used to instantiate objects.
+
 4. If you uncomment line #30-24 in the Program.cs file, you will get some compile errors.
    Modify the classes and/or the program.cs without touching the "Main" method so that 
    the program will display the result as shown below:
