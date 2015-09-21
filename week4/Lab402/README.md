@@ -51,9 +51,11 @@ Abstract class
     = I think the properties Width and Height is in both subclass
 	which could be in the superclass.
 3. What happen if you uncomment line #27-28 in the Program.cs file? Why?
-4. If you uncomment line #30-24 in the Program.cs file, you will get some compile errors.
+	couse errors cuz Cannot create an instance of the abstract class or interface 'Shape'
+4. If you uncomment line #30-34 in the Program.cs file, you will get some compile errors.
    Modify the classes and/or the program.cs without touching the "Main" method so that 
    the program will display the result as shown below:
+   create printPerimeter function
 
 ## Expected Output:
 

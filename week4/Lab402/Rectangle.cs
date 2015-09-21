@@ -49,6 +49,7 @@ namespace Lab4
             return string.Format("[Rectangle: width={0}, height={1}, area={2}, color=\"{3}\"]", Width, Height, getArea(), Color);
         }
 
+
     }
 }
 
