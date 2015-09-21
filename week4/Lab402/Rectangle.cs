@@ -28,7 +28,7 @@ namespace Lab4
             }
         }
 
-        public Rectangle () : base("gold")
+        public Rectangle () 
 		{
             Width = 1;
             Height = 1;

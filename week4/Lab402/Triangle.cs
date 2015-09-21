@@ -28,7 +28,7 @@ namespace Lab4
             }
         }
 
-        public Triangle () : base("gold")
+        public Triangle ()
 		{
             Width = 1;
             Height = 1;
@@ -50,7 +50,7 @@ namespace Lab4
         }
         public override double getPerimeter()
         {
-            return Width + (2 * Math.Sqrt(Math.Pow(Width, 2) + Math.Pow(Height, 2)));
+            return Width + Height + (Math.Sqrt(Math.Pow(Width, 2) + Math.Pow(Height, 2)));
         }
         public override string ToString()
         {

@@ -10,7 +10,7 @@ namespace Lab4
             get { return _color; }
         }
 
-        public Shape (string color)
+        public Shape (string color = "gold")
 		{
             _color = color;
 		}
