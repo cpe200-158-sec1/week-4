@@ -3,10 +3,13 @@
 namespace Lab4
 {
 	public abstract class Shape
-	{
-		public Shape ()
-		{
-		}
-	}
+	{      //properties
+        private string _Color;
+        public abstract string Color
+        { get; }        
+        //methode
+        public abstract double getArea();                 
+        public abstract double getPerimeter();
+    }
 }
 

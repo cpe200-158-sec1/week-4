@@ -1,0 +1,5 @@
+C:\Users\Lenovo\Source\Repos\week-4\week4\Lab401\bin\Debug\ConsoleApplication.exe
+C:\Users\Lenovo\Source\Repos\week-4\week4\Lab401\bin\Debug\ConsoleApplication.pdb
+C:\Users\Lenovo\Source\Repos\week-4\week4\Lab401\obj\x86\Debug\Lab401.csprojResolveAssemblyReference.cache
+C:\Users\Lenovo\Source\Repos\week-4\week4\Lab401\obj\x86\Debug\ConsoleApplication.exe
+C:\Users\Lenovo\Source\Repos\week-4\week4\Lab401\obj\x86\Debug\ConsoleApplication.pdb
