@@ -6,6 +6,7 @@ namespace Lab4
 	{
 		public Point ()
 		{
+            //test
 		}
 	}
 }
