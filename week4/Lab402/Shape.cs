@@ -10,7 +10,7 @@ namespace Lab4
         public string Color
         {
             get;
-            set;
+            set; 
         }
 
         //## Constructors:

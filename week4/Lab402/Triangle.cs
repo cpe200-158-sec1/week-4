@@ -29,7 +29,7 @@ namespace Lab4
         //## Constructors:
         public Triangle()//default
         {
-            Width = 1.0;
+            Width = 1.0; 
             Height = 1.0;
         }
         public Triangle(string c, double w, double h) : base(c)

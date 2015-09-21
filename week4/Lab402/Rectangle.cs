@@ -29,7 +29,7 @@ namespace Lab4
 
         //## Constructors:
         public Rectangle()
-        {
+        { 
             Width = 1.0;
             Height = 1.0;
         }
