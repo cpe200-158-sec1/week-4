@@ -3,7 +3,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
-    <ProjectGuid>{7BA7280B-A51B-4BA1-8E6D-2250C839261D}</ProjectGuid>
+    <ProjectGuid>{E6581B32-47D2-4344-BCA2-5E2380E15935}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <NoStandardLibraries>false</NoStandardLibraries>
     <AssemblyName>ConsoleApplication</AssemblyName>
@@ -31,7 +31,7 @@
     <PlatformTarget>x86</PlatformTarget>
   </PropertyGroup>
   <PropertyGroup>
-    <RootNamespace>Lab402</RootNamespace>
+    <RootNamespace>lab_401</RootNamespace>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.CSharp" />
@@ -43,11 +43,10 @@
     <Reference Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Circle.cs" />
+    <Compile Include="Cylinder.cs" />
+    <Compile Include="Point.cs" />
     <Compile Include="Program.cs" />
-    <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Rectangle.cs" />
-    <Compile Include="Shape.cs" />
-    <Compile Include="Triangle.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="README.md" />
