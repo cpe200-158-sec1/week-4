@@ -9,7 +9,7 @@ namespace Lab4
 
         public override string ToString()
         {
-            return string.Format("Circle: center({0},{1}), radius={2}, area={3},", _center.X, _center.Y, _radius, getArea());
+            return  string.Format("Circle: center=({0},{1}), radius={2}, area={3},", x, y, radius, getArea());
         }
         public double radius
         {
@@ -23,7 +23,7 @@ namespace Lab4
         }
         public Circle() : base()
         {
-            _center = new Point();
+           
             _radius = 1;
 
         }
@@ -49,9 +49,9 @@ namespace Lab4
             this._center = new Point(x, y);
             this._radius = radius;
         }
-        public double getArea()
+        public  double getArea()
         {
-            return 3.14159265358979 * _radius * _radius;
+            return (double)(3.14159265358979 * _radius * _radius);
        }
       
 }

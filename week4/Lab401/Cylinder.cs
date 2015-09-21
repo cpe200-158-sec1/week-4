@@ -11,8 +11,8 @@ namespace Lab4
 
         public override string ToString()
         {
-            return string.Format("Cylinder: center({0},{1}), radius={2}, height={3}, surface={4}, volume={5}]",
-                _circle.Center.X, _circle.Center.Y, _circle.Radius, _height, getArea(), getVolume());
+            return string.Format("Cylinder: center=({0},{1}), radius={2}, height={3}, surface={4}, volume={5}]",
+                x, y, _circle.radius, _height, getSurface(), getVolume());
         }
         public double height
         {
@@ -30,13 +30,13 @@ namespace Lab4
             }
         }
 
-        public double getArea()
+        public virtual double getSurface()
         {
-            return ((2 * 3.14159265358979 * _circle.Radius * _height) + (2 * _circle.getArea()));
+            return ((2 * 3.14159265358979 * _circle.radius * _height) + (2 * _circle.getArea()));
         }
         public double getVolume()
         {
-            return _circle.getArea() * Height;
+            return _circle.getArea() *_height;
         }
 
         public Cylinder()
@@ -63,7 +63,7 @@ namespace Lab4
         }
         public Cylinder(Cylinder a)
         {
-            _circle = new Circle(a._circle.Center.X, a._circle.Center.Y, a._circle.Radius);
+            _circle = new Circle(a._circle.center.x, a._circle.center.y, a._circle.radius);
             _height = a._height;
         }
 
