@@ -35,7 +35,7 @@ namespace Lab4
         //Tostring
         public override string ToString()
         {
-            string s = "555+";
+            string s = "#LAB0566";
             return s;
         }
 

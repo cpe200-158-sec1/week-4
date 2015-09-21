@@ -2,9 +2,10 @@
 
 namespace Lab4
 {
-    public class Rectangle : Shape 
+    public class Rectangle : Shape
     {
-        //properties
+       
+        //concrete member
         private double _Width;
         public double Width
         {
@@ -13,7 +14,7 @@ namespace Lab4
             {
                 if (value < 0)
                 {
-
+                    _Width = 1.0;
                 }
                 else
                 {
@@ -28,7 +29,7 @@ namespace Lab4
             {
                 if (value < 0)
                 {
-
+                    _Height = 1.0;
                 }
                 else
                 {
@@ -36,37 +37,46 @@ namespace Lab4
                 }
             }
         }
+        public override string Color
+        { get; }
 
-            
+
         //constructor
         public Rectangle ()
 		{
+            Color = "gold";
             Width = 1.0;
             Height = 1.0;
 		}
         public Rectangle(string s, double w, double h)
         {
-            _
+            Color = s;      
             _Width = w;
             _Height = h;
         }
         public Rectangle(Rectangle r)
         {
-            //color
+            Color = r.Color;
             _Height = r._Height;
             _Width = r._Width;           
         }
 
         //methode
-        public void getArea()
+        public override double getArea()
         {
-            //get area of a rectangle
+            return _Height * _Width;
+        }
+        //abstract method, calculate area of the shape        
+        public override double getPerimeter()
+        {
+            return (2 * _Width) + (2 * _Height);
         }
 
         //Tostring
         public override string ToString()
         {
-            string s;
+            string s = "[Rectangle: width =" +_Width+", height ="+_Height+", area ="+getArea()+", color ="+Color+"]";
+
             return s;
         }
 
