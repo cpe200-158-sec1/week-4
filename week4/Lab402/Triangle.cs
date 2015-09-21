@@ -8,36 +8,7 @@ namespace Lab4
 
         //## Properties:
         //- double Width, Height: dimension of rectangle(>0, default=1.0)
-        private double _width;
-        private double _height;
-
-        public double Width
-        {
-            get
-            {
-                return _width;
-            }
-
-            set
-            {
-                if (value > 0) Width = value;
-                else Width = 1.0;
-            }
-        }
-
-        public double Height
-        {
-            get
-            {
-                return _height;
-            }
-
-            set
-            {
-                if (value > 0) Height = value;
-                else Height = 1.0;
-            }
-        }
+        
 
         //## Constructors:
         //- Triangle() : default
@@ -49,16 +20,14 @@ namespace Lab4
         }
         
         //- Triangle(string, double, double) : takes color, width, height as parameters
-        public Triangle (string inColor, double inWidth, double inHeight)
+        public Triangle (string inColor, double inWidth, double inHeight) : base(inColor)
         {
-            Color = inColor;
             Height = inHeight;
             Width = inWidth;
         }
         //- Triangle(Rectangle) : copy constructor
-        public Triangle (Triangle inTri)
+        public Triangle (Triangle inTri) : base(inTri.Color)
         {
-            Color = inTri.Color;
             Width = inTri.Width;
             Height = inTri.Height;
         }
@@ -78,7 +47,7 @@ namespace Lab4
         //- override ToString() method
         public override string ToString()
         {
-            return string.Format("[Triangle: base={0}, height={1}, area={2}, color=\"{3}\"]", Width, Height, getArea(), Color);
+            return string.Format("[Triangle : width={0}, height={1}, area={2}, color=\"{3}\"]", Width, Height, getArea(), Color);
         }
     }
 }

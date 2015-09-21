@@ -9,42 +9,7 @@ namespace Lab4
         //## Properties:
         //- double Width, Height: dimension of rectangle(>0, default=1.0)
 
-        private double _width;
-        private double _height;
-
-        public double Width
-        {
-            get
-            {
-                return _width;
-            }
-
-            set
-            {
-                if (value > 0)
-                    Width = value;
-                else
-                    Width = 1.0;
-            }
-
-        }
-
-        public double Height
-        {
-            get
-            {
-                return _height;
-            }
-
-            set
-            {
-                if (value > 0)
-                    Height = value;
-                else
-                    Height = 1.0;
-            }
-
-        }
+        
 
         //## Constructors:
         //- Rectangle(): default
@@ -55,16 +20,14 @@ namespace Lab4
             Height = 1.0;
         }
         //- Rectangle(string, double, double): takes color, width, height as parameters
-        public Rectangle(string inColor, double inWidth, double inHeight)
+        public Rectangle(string inColor, double inWidth, double inHeight) : base(inColor)
         {
-            Color = inColor;
             Width = inWidth;
             Height = inHeight;
         }
         //- Rectangle(Rectangle): copy constructor
-        public Rectangle(Rectangle inRec)
+        public Rectangle(Rectangle inRec) : base(inRec.Color)
         {
-            Color = inRec.Color;
             Width = inRec.Width;
             Height = inRec.Height;
         }
@@ -88,5 +51,5 @@ namespace Lab4
 
     }
 }
-}
+
 
