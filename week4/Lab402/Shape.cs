@@ -1,12 +1,19 @@
 ﻿using System;
 
-namespace Lab4
+namespace Lab402
 {
 	public abstract class Shape
 	{
-		public Shape ()
+        protected string _Color ;
+        public abstract string Color { get; }
+        public abstract double getArea();
+        public abstract double getPerimeter();
+
+        public Shape ( )
 		{
+           
 		}
+
 	}
 }
 
