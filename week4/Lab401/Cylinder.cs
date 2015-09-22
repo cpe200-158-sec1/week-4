@@ -36,7 +36,7 @@ namespace Lab4
         }
         public double getVolume()
         {
-            return _circle.getArea() *_height;
+            return _circle.getArea() * _height;
         }
 
         public Cylinder()

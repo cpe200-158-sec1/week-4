@@ -47,6 +47,7 @@ namespace Lab4
         {
             x = a;
             y = b;
+
         }
 
     }
