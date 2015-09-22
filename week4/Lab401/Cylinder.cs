@@ -49,7 +49,7 @@ namespace Lab4
         }
         public override string ToString()
         {
-            return string.Format("[Cylinder: center({0},{1}), radius={2}, height={3}, surface={4}, volume={5}]", this.X, this.Y,this.Radius, Height, getArea(), getVolume());
+            return string.Format("[Cylinder: center({0},{1}), radius={2}, height={3}, surface={4}, volume={5}]", this.Center.X, this.Center.Y,this.Radius, Height, getArea(), getVolume());
         }
     }
 }

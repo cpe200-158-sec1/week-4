@@ -2,7 +2,7 @@
 
 namespace Lab4
 {
-	public class Circle : Point
+	public class Circle 
 	{
         private Point _center;
         private double _radius;
@@ -34,12 +34,12 @@ namespace Lab4
             _center = new Point();
             _radius = radius;
         } 
-        public Circle(double x ,double y, double radius) : base(x,y)
+        public Circle(double x ,double y, double radius) 
         {
             _center = new Point(x, y);
             _radius = radius;
         }
-        public Circle(Circle obj) : base(obj.X,obj.Y)
+        public Circle(Circle obj) 
         {
             _center = new Point(obj.Center);
             _radius = obj.Radius;
