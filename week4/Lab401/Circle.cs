@@ -2,7 +2,7 @@
 
 namespace Lab4
 {
-	public class Circle : Point
+	public class Circle
 	{
         private Point _center;
         private double _radius;
