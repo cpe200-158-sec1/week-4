@@ -4,7 +4,7 @@ namespace Lab4
 {
 	public abstract class Shape
 	{
-        private string _Color;
+        protected string _Color;
         public Shape(string color = "gold")
         {
             _Color = color;
