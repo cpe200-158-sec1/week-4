@@ -2,7 +2,7 @@
 using Lab4;
 namespace Lab4
 {
-    public class Circle : Point
+    public class Circle 
     {
         private Point _center = new Point();
         private double _radius;
@@ -50,7 +50,7 @@ namespace Lab4
 
         public Circle(double a, double b, double c)
         {
-            Center.X = a;
+            Center.X = a; // this.X is false . // this.Center.X is true
             Center.Y = b;
             Radius = c;
         }
