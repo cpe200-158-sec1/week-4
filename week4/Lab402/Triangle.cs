@@ -63,6 +63,7 @@ namespace Lab4
         {
             return string.Format("[Triangle: width={0}, height={1}, area={2}, color=\"{3}\"]", width, height, getArea(), color);
         }
+
     }
 }
 

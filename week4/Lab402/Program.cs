@@ -47,7 +47,6 @@ namespace Lab4
             Console.WriteLine("Perimeter of s3: {0}", printPerimeter(s3));
             Console.WriteLine("Perimeter of r1: {0}", printPerimeter(r1));
             Console.WriteLine("Perimeter of t1: {0}", printPerimeter(t1));
-
             Console.ReadKey();
         }
     }

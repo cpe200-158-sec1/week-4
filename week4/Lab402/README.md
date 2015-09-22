@@ -46,7 +46,7 @@ Abstract class
 ## Questions:
 
 1. Are there still any redundant lines of code in your project? where?
-answer:yes, it's in constructors. 
+answer:no
 2. Modify the project so that you can minimize or solve those redundancy.
 answer: use  base keyword and parameter.
 3. What happen if you uncomment line #27-28 in the Program.cs file? Why?

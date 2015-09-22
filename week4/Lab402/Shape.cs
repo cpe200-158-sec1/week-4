@@ -26,5 +26,6 @@ namespace Lab4
             return string.Format("0", color);
         }
     }
+
 }
 
