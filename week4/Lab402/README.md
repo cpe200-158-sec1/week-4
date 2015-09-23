@@ -46,11 +46,15 @@ Abstract class
 ## Questions:
 
 1. Are there still any redundant lines of code in your project? where?
+Answer:yes,in constructors.
 2. Modify the project so that you can minimize or solve those redundancy.
+Answer:We can use the base keyword after a colon in each constructors to reduce the redundant codes.
 3. What happen if you uncomment line #27-28 in the Program.cs file? Why?
+Answer:error because Shape is abstract class.we can't use Shape class to build object by itself.
 4. If you uncomment line #30-24 in the Program.cs file, you will get some compile errors.
    Modify the classes and/or the program.cs without touching the "Main" method so that 
    the program will display the result as shown below:
+Answer:I create 3 printPerimeter methods to use printPerimeter() to show perimeter.
 
 ## Expected Output:
 
